@@ -1,0 +1,8 @@
+[build]
+command = "npx ng build"
+publish = "dist/motor-claims/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
